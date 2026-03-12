@@ -1,0 +1,46 @@
+# theme = GruvboxDarkHard
+macos-titlebar-style=transparent
+
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+window-padding-balance = true 
+window-save-state = always
+macos-titlebar-style=transparent
+window-colorspace = "display-p3"
+
+
+# keybindings
+keybind = cmd+s>r=reload_config
+keybind = cmd+s>x=close_surface
+
+keybind = cmd+s>n=new_window
+
+# tabs 
+keybind = cmd+n=next_tab
+keybind = cmd+s>c=new_tab
+keybind = cmd+s>shift+l=next_tab
+keybind = cmd+s>shift+h=previous_tab
+keybind = cmd+s>comma=move_tab:-1
+keybind = cmd+s>period=move_tab:1
+
+# split
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+l=goto_split:right
+
+# other
+copy-on-select = clipboard
+
+
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+# theme = Dark+
+# theme = "Catppuccin Frappe"
+# theme = "Apple Classic"
+
+theme = "Monokai Classic"
+
+
